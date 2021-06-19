@@ -4,8 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==2.2.5"
+django = "===2.2.5"
 pillow = "*"
+flake8 = "*"
+black = "*"
+django-countries = "*"
 
 [dev-packages]
 flake8 = "*"
